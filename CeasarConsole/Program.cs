@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace CeasarMessage
 {
     class Program
@@ -13,7 +14,7 @@ namespace CeasarMessage
         static void Main(string[] args) {
 
             StringCollection wordsDictionary = new StringCollection();
-            wordsDictionary = StringCollect.dictionaryCollect("..\\..\\englishWordsDictionary.txt");
+            wordsDictionary = StringCollect.dictionaryCollect("..\\..\\..\\englishWordsDictionary.txt");
 
             Console.Write("Please enter message, try use english words only:");
             Console.WriteLine();

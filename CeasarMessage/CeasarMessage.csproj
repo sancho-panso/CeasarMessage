@@ -53,5 +53,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CeaserClasses\CeaserClasses.csproj">
+      <Project>{2503b807-6fa3-4e83-adef-bb0e9bd1b136}</Project>
+      <Name>CeaserClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
