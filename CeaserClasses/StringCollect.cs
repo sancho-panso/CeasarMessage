@@ -23,7 +23,5 @@ namespace CeasarMessage
 
             return wordsDictionary;
         }
-        
-
     }
 }

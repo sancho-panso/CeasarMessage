@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CeasarMessage
 {
-    class StringCompare
+    public class StringCompare
     {
         public static bool CompareStrings(string input, StringCollection words)
         {
@@ -19,7 +19,6 @@ namespace CeasarMessage
                
             }
 
-            
             return true;
             
         }
