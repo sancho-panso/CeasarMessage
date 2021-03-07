@@ -22,7 +22,7 @@ namespace CeasarMessage
             if (input > 'A' && input < 'Z')
                 {
                     int letterAsNumber = (int)input - 'A';
-                    int encryptedLetter = (letterAsNumber - key + 26);
+                    int encryptedLetter = (letterAsNumber - key + 26)%26;
                     char decriptedChar = (char)(encryptedLetter +'A');
                     return decriptedChar;
                 }

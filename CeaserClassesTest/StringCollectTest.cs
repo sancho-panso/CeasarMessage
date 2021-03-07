@@ -8,12 +8,12 @@ namespace CeaserClassesTest
     [TestClass]
     public class StringCollectTest
     {
+        private StringCollection wordsDictionary = new StringCollection();
+
         [TestMethod]
         public void StringCollectionContentTypeCheck()
         {
-            StringCollection wordsDictionary = new StringCollection();
             wordsDictionary = StringCollect.dictionaryCollect("englishWordsDictionary.txt");
-
             foreach (object line in wordsDictionary)
             {
                 Assert.IsInstanceOfType(line, typeof(string));
@@ -24,7 +24,6 @@ namespace CeaserClassesTest
         public void StringCollectionLengthCheck()
         {
             int collectionLength = 370105;
-            StringCollection wordsDictionary = new StringCollection();
             wordsDictionary = StringCollect.dictionaryCollect("englishWordsDictionary.txt");
 
             Assert.AreEqual(collectionLength, wordsDictionary.Count);
