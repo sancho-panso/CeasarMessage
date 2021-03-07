@@ -19,7 +19,6 @@ namespace CeasarMessage
                
             }
 
-            
             return true;
             
         }

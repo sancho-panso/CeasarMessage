@@ -1,16 +1,11 @@
 ﻿using CeasarMessage;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Collections.Specialized;
-
 
 namespace CeaserClassesTest
 {
     [TestClass]
     public class EcryptTest
     {
-        private StringCollection wordsDictionary = new StringCollection();
-
-
         private const char charToCheck = 'A';
         private const string stringToCheck = "test test test";
         private const int ecryptKey = 20;
