@@ -9,4 +9,10 @@
     <ProjectReference Include="..\CeaserClasses\CeaserClasses.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="englishWordsDictionary.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

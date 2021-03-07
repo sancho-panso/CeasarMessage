@@ -10,8 +10,7 @@ namespace CeasarMessage
     {
         public static int InputValidNumber()
         {
-            while (true)
-            {
+           
                 Console.Write("Enter decryption key as integer number:");
                 Console.WriteLine();
                 string keyString = Console.ReadLine();
@@ -22,8 +21,9 @@ namespace CeasarMessage
                 else
                 {
                     Console.WriteLine($"We can not convert input: '{keyString}' \nto an integer number, please try again");
+                    return 0;
                 }
-            }
+          
         }
     }
 }
